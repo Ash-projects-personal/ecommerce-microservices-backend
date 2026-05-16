@@ -1,5 +1,9 @@
 # ecommerce-microservices-backend
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18-green.svg)](https://nodejs.org/)
+[![Kafka](https://img.shields.io/badge/Kafka-event--driven-231F20.svg)](https://kafka.apache.org/)
+
 Built this locally to experiment with event-driven architectures. Pushing the core API gateway and Kafka producer logic here.
 
 It's a backend for an e-commerce platform broken down into 8 microservices: Auth, Product, Order, Payment, Notification, Inventory, Search, and Analytics. The biggest bottleneck in the old synchronous design was the checkout flow — waiting for payment processing and inventory reservation sequentially took too long.
